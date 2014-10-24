@@ -1,4 +1,4 @@
-(function () {
-	//var getBody = document.getElementsByTagName("body");
-	$('body').attr('data-senna');
+$( document ).ready(function() {
+	document.getElementsByTagName("body")[0].setAttribute("data-senna","");
 });
+
