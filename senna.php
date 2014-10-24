@@ -21,7 +21,7 @@
 function senna() {
 	wp_enqueue_script(
 		'custom-script',
-		get_stylesheet_directory_uri() . '/js/senna.js',
+		get_stylesheet_directory_uri() . '/assets/js/senna.js',
 	);
 }
 
