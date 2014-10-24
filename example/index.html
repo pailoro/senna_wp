@@ -2,12 +2,19 @@
 <html>
 	<head>
 		<title>Senna WP</title>
-		<script src="../vendor/senna.js"></script>
+		<script src="../vendor/senna-min.js"></script>
 		<script src="../vendor/senna-debug.js"></script>
-		<script src="../vendor/init_senna.js"></script>
+		<script src="../init_senna.js"></script>
 		<link rel="stylesheet" href="../vendor/senna.css">
 	</head>
 
-	<body>
+	<body data-senna>
+		<div class="senna-loading-bar"></div>
+
+		<a href="page1.html">Link to page</a>
+
+		<section id="content">
+			<p>The content goes load here</p>
+		</section>
 	</body>
 </html>
